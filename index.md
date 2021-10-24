@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# References for the R package used by CBioExplorer
 
-You can use the [editor on GitHub](https://github.com/liuxiaoping2020/CBioExplorer_reference/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/liuxiaoping2020/CBioExplorer_reference/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+R Package       | Version | Citation                                                                                                                                                                                                                                                                                                                                                                                                                  
+--------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+table1          | 1.2     | Benjamin Rich (2020). table1: Tables of Descriptive Statistics in HTML. R package version<br>  1.2. https://CRAN.R-project.org/package=table1                                                                                                                                                                                                                                                                             
+survminer       | 0.4.8   | Alboukadel Kassambara, Marcin Kosinski and Przemyslaw Biecek (2020). survminer: Drawing<br>  Survival Curves using 'ggplot2'. R package version 0.4.8.<br>  https://CRAN.R-project.org/package=survminer                                                                                                                                                                                                                  
+survival        | 3.2-3   | Terry M. Therneau, Patricia M. Grambsch (2000). \_Modeling Survival Data: Extending the Cox<br>Model\_. Springer, New York. ISBN 0-387-98784-3                                                                                                                                                                                                                                                                            
+survivalROC     | 1.0.3   | Patrick J. Heagerty and packaging by Paramita Saha-Chaudhuri (2013). survivalROC:<br>  Time-dependent ROC curve estimation from censored survival data. R package version 1.0.3.<br>  https://CRAN.R-project.org/package=survivalROC                                                                                                                                                                                      
+WGCNA           | 1.69    | Langfelder P and Horvath S, WGCNA: an R package for weighted correlation network analysis.<br>  BMC Bioinformatics 2008, 9:559 doi:10.1186/1471-2105-9-559                                                                                                                                                                                                                                                                
+ggpubr          | 0.4.0   | Alboukadel Kassambara (2020). ggpubr: 'ggplot2' Based Publication Ready Plots. R package<br>  version 0.4.0. https://CRAN.R-project.org/package=ggpubr                                                                                                                                                                                                                                                                    
+limma           | 3.44.3  | Ritchie, M.E., Phipson, B., Wu, D., Hu, Y., Law, C.W., Shi, W., and Smyth, G.K. (2015). limma<br>  powers differential expression analyses for RNA-sequencing and microarray studies. Nucleic<br>  Acids Research 43(7), e47.                                                                                                                                                                                             
+randomForestSRC | 2.9.3   | Ishwaran H. and Kogalur U.B. (2007). Random survival forests for R. R News 7(2), 25--31.                                                                                                                                                                                                                                                                                                                                  
+mlr             | 2.18.0  | Bischl B, Lang M, Kotthoff L, Schiffner J, Richter J, Studerus E, Casalicchio G, Jones Z<br>(2016). "mlr: Machine Learning in R." \_Journal of Machine Learning Research\_, \*17\*(170), 1-5.<br><URL: https://jmlr.org/papers/v17/15-066.html>.                                                                                                                                                                          
+enrichplot      | 1.10.2  | Guangchuang Yu (2021). enrichplot: Visualization of Functional Enrichment Result. R package<br>  version 1.10.2. https://yulab-smu.top/biomedical-knowledge-mining-book/                                                                                                                                                                                                                                                  
+rms             | 6.0-1   | Frank E Harrell Jr (2020). rms: Regression Modeling Strategies. R package version 6.0-1.<br>  https://CRAN.R-project.org/package=rms                                                                                                                                                                                                                                                                                      
+TCGAbiolinks    | 1.14.0  | Antonio Colaprico, Tiago Chedraoui Silva, Catharina Olsen, Luciano Garofano, Claudia Cava,<br>  Davide Garolini, Thais Sabedot, Tathiane Malta, Stefano M. Pagnotta, Isabella<br>  Castiglioni,Michele Ceccarelli, Gianluca Bontempi Houtan Noushmehr. TCGAbiolinks: An<br>  R/Bioconductor package for integrative analysis of TCGA data Nucleic Acids Research (05 May<br>  2016) 44 (8): e71. (doi:10.1093/nar/gkv1507)
+ReactomePA      | 1.34.0  | Guangchuang Yu, Qing-Yu He. ReactomePA: an R/Bioconductor package for reactome pathway<br>  analysis and visualization. Molecular BioSystems 2016, 12(2):477-479                                                                                                                                                                                                                                                          
+clusterProfiler | 3.18.1  | Guangchuang Yu, Li-Gen Wang, Yanyan Han and Qing-Yu He. clusterProfiler: an R package for<br>  comparing biological themes among gene clusters. OMICS: A Journal of Integrative Biology<br>  2012, 16(5):284-287                                                                                                                                                                                                          
+msigdbr         | 7.1.1   | Igor Dolgalev (2020). msigdbr: MSigDB Gene Sets for Multiple Organisms in a Tidy Data Format.<br>  R package version 7.1.1. https://CRAN.R-project.org/package=msigdbr                                                                                                                                                                                                                                                    
+caret           | 6.0-86  | Max Kuhn (2020). caret: Classification and Regression Training. R package version 6.0-86.<br>  https://CRAN.R-project.org/package=caret                                                                                                                                                                                                                                                                                   
